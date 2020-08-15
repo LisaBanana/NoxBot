@@ -34,7 +34,7 @@ Le texte ou les images ne vous convienent pas ? Pas de problème, vous pouvez to
 
 Pour le texte, voici quelques recomandations :
 - les caractères comme les apostrophes sont échappés avec un "\", ça n'apparait pas sur le texte renvoyé par le bot, mais si vous l'enlevez ou ne pensez pas à le mettre dans le texte de remplacement, il se peut que ça ne fonctionne pas correctement et que le texte ne soit pas renvoyé par le bot.
-
+- Si vous changez le texte, pensez également à le modifier dans la partie help du fichier noxbot.py
 - Pour les images, vous pouvez utiliser des images ou des gif en copiant leur url dans la colonne img_url. Si vous souhaitez utiliser une image personelle, il vous faudra l'héberger sur un site type imgur. 
 
 /!\ les images hébergées sur des google drives ne s'affichent pas, même avec leur url copiée dans la colonne img_url. Cela est du au fonctionnement particulier de google drive, si vous souahitez tout de même utiliser des images via google dive il faudra passer par l'API GoogleDrive et modifier le code du fichier noxbot.py en conséquence. 
