@@ -7,7 +7,7 @@ Il est entièrement personalisable, vous pouvez en modifier les textes et les im
 Je ne fais que fournir le code, une fois téléchargé, ce que vous en faites n'est pas de ma responsabilité. 
 En revanche si vous souhaitez faire part d'améliorations possibles ou partager la manière dont vous vous l'êtes appropriés, n'hésitez pas à me contacter, je serai très heureuse d'échanger avec vous.
 
-Ce github contient 5+ fichiers :
+Ce github contient 10 fichiers :
 - .env : contient la varaible DISCORD_TOKEN = VOTRE_TOKEN_A_COLLER_ICI (voir 1/)
 - noxbot.py : le code du bot en python (vous pouvez le modifier à vos risques et périls)
 - tab_nox.csv : le fichier qui contient le texte et les images (gif ou photos), vous pouvez le modifier mais /!\ il y a quelques recommandations (voir 2/)
