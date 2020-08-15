@@ -7,9 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-#c'est le token du bot
-GUILD = 'JDR'
-#c'est le serveur sur lequel on se trouve (le mien)
+#c'est le token du bot dans le fichier .env
 
 bot = commands.Bot(command_prefix='!')
 bot.remove_command('help')
@@ -32,12 +30,6 @@ client = discord.Client()
 
 
 tab = pd.read_csv('tab_nox.csv', sep = ';', engine = 'python')
-
-# for i in range (0, len(tab)) :
-#     if tab.letter[i]== 'x':
-#         print('message', tab.img_url[i])
-#     elif tab.letter[i]== 'o' :
-#         print('message',tab.img_url[i])
 
 command_name = tab.letter
 
