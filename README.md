@@ -20,7 +20,7 @@ Pour corriger, cela il faut simplement changer la suite de chiffres après disco
 
 Comment utiliser ce bot de sécurité émotionelle sur votre serveur discord : 
 
-# 1/ Créer une app sur voter serveur.
+# 1/ Créer une app sur votre serveur.
 Pour cela, ce tutoriel est très bien fichu (vous aurez seulement besoin de la première partie "Créer une App Discord et inviter le Bot sur votre serveur" du 1. au 7.) :  https://dylanbonjean.wordpress.com/2018/01/05/bot-discord/
 
 => Dans la partie 5. de ce tutoriel, il vous est demandé de "révéler le Token", copiez le token et venez le coller dans le fichier .env (DISCORD_TOKEN = VOTRE_TOKEN_A_COLLER_ICI)
